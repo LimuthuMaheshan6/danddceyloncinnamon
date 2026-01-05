@@ -151,8 +151,9 @@
 
 <section class="bg-[#dce4c9] pt-3 pb-10 plan">
     <p class="text-center text-[47px] text-[#441f1f] font-extrabold">Take the next step</p>
+    <br>
 
-    <div data-aos="fadegit-up" class="flex flex-row justify-center gap-[10px] flex-wrap">
+    <div data-aos="fade-up" class="flex flex-row justify-center gap-[10px] flex-wrap">
         {#each plan as item}
         <div class="w-[250px] h-[250px]  rounded-4xl border-2 border-[#441f1f]">
         
