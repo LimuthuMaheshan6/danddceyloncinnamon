@@ -92,7 +92,7 @@
            <div class="h-3"></div>
         </div>
         <div>
-            <img data-aos="fade-left" class="w-[400px] min-[500px]:rounded-2xl" src="images/thenul.webp" alt="thenul">
+            <img data-aos="fade-right" class="w-[400px] min-[500px]:rounded-2xl" src="images/thenul.webp" alt="thenul">
 
         </div>
     </div>
@@ -101,7 +101,7 @@
 
 <section class="bg-[#441f1f] pt-[20px] pb-7 benefits">
     <div class="h-[20px] w-full"></div>
-    <h2 class="text-center text-white" style="text-transform: capitalize;">Explore  benefits buying D&D ceylon cinnamon</h2>
+    <h2 class="text-center text-white" style="text-transform: capitalize;">Explore  benefits of buying D&D ceylon cinnamon</h2>
     <br>
 
     <div data-aos="zoom-in-up" class="flex flex-row flex-wrap justify-center gap-5">
