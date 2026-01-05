@@ -34,9 +34,9 @@
     <p class="relative z-2 text-[grey] text-center text-[21px] m-3">"Helping societies by exporting cinnamon world wide."</p>
     <div class="">
         
-        <div class="relative z-2 mx-auto overflow-hidden min-[1024px]:h-[700px] min-[1024px]:rounded-2xl min-[1076px]:w-[1051px] " >
-                <img data-aos="fade" class="absolute z-1 right-2 top-2 w-10 min-[1024px]:scale-[1.2] opacity-80" src="icons/srilankaicon.webp" alt="icon">
-                <img data-aos="zoom-in-up" class="mx-auto w-full min-[1024px]:rounded-2xl min-[1024px]:h-[700px] hover:scale-110 duration-300" src="cinnamon.webp" alt="cinnamon">
+        <div data-aos="zoom-in-up" class="relative z-2 mx-auto overflow-hidden min-[1024px]:h-[700px] min-[1024px]:rounded-2xl min-[1076px]:w-[1051px] " >
+                <img  class="absolute z-1 right-2 top-2 w-10 min-[1024px]:scale-[1.2] opacity-80" src="icons/srilankaicon.webp" alt="icon">
+                <img  class="mx-auto w-full min-[1024px]:rounded-2xl min-[1024px]:h-[700px] hover:scale-110 duration-300" src="cinnamon.webp" alt="cinnamon">
             </div>
     </div>
 
