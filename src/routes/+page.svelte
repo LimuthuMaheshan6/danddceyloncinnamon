@@ -92,7 +92,7 @@
            <div class="h-3"></div>
         </div>
         <div>
-            <img class="w-[400px] rounded-2xl" src="images/thenul.webp" alt="thenul">
+            <img class="w-[400px] min-[500px]:rounded-2xl" src="images/thenul.webp" alt="thenul">
 
         </div>
     </div>
@@ -158,7 +158,7 @@
         
                     <div class="w-full h-full flex flex-col items-center justify-center">
         
-                        <p class="font-extralight">{item.action}</p>
+                        <p class="font-light">{item.action}</p>
         
                         <img class={"w-[100px] " + item.imgStyle} src={item.img} alt="icon-plans">
         
