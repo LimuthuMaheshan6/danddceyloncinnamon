@@ -88,7 +88,7 @@
     
     
     
-     <div class="display-none" id="pad">
+     <div class="display-none bg-yellow-900" id="pad">
     
         <div class="stable-navpad" style="height: 70px; width:100%;"></div>
     

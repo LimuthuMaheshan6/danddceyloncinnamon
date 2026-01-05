@@ -41,14 +41,14 @@ function productDataFunc() {
 
 </script>
 
-<section class="bg-amber-900 w-full  pb-[60px]">
+<section class="bg-[#441f1f] w-full  pb-[60px]">
 
 
 <br><br><br>
     
     
         
-        <form  class="bg-amber-900  mx-auto flex flex-col items-center" on:submit={() => productDataFunc()}>
+        <form  class="bg-[#441f1f]  mx-auto flex flex-col items-center" on:submit={() => productDataFunc()}>
             <input type="text"  bind:value={productData}  class="fixed w-64 h-10 bg-amber-200/80 backdrop-blur-2xl rounded-3xl outline-amber-600 border-2 border-amber-900"  placeholder="            Search Cinnamon">
         </form>
 
