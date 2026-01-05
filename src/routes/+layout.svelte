@@ -4,6 +4,12 @@
     import { onMount } from 'svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import Footer from "$lib/Footer.svelte"
+	import "aos/dist/aos.css"
+    import Aos from 'aos';
+
+	onMount(() => {
+		Aos.init()
+	})
 
 	onMount(async () => {
 

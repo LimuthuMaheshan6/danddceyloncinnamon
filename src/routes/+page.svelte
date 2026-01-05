@@ -35,8 +35,8 @@
     <div class="">
         
         <div class="relative z-2 mx-auto overflow-hidden min-[1024px]:h-[700px] min-[1024px]:rounded-2xl min-[1076px]:w-[1051px] " >
-                <img class="absolute z-1 right-2 top-2 w-10 min-[1024px]:scale-[1.2] opacity-80" src="icons/srilankaicon.webp" alt="icon">
-                <img class="mx-auto w-full min-[1024px]:rounded-2xl min-[1024px]:h-[700px] hover:scale-110 duration-300" src="cinnamon.webp" alt="cinnamon">
+                <img data-aos="fade" class="absolute z-1 right-2 top-2 w-10 min-[1024px]:scale-[1.2] opacity-80" src="icons/srilankaicon.webp" alt="icon">
+                <img data-aos="zoom-in-up" class="mx-auto w-full min-[1024px]:rounded-2xl min-[1024px]:h-[700px] hover:scale-110 duration-300" src="cinnamon.webp" alt="cinnamon">
             </div>
     </div>
 
@@ -48,10 +48,10 @@
     <h2 class="text-center text-white" style="text-transform: capitalize;">Drawbacks of purchasing cinnamon in markets</h2>
     <br>
 
-    <div class="flex flex-row flex-wrap justify-center gap-5">
+    <div data-aos="zoom-in-up" class="flex flex-row flex-wrap justify-center gap-5">
 
         {#each cardCosts as item}
-            <div class="w-80 h-80 rounded-2xl bg-amber-50 min-[500px]:hover:scale-110 duration-300 ease-out" style={item.card}>
+            <div  class="w-80 h-80 rounded-2xl bg-amber-50 min-[500px]:hover:scale-110 duration-300 ease-out"  style={item.card}>
                 <div class="w-full h-full flex flex-col items-center justify-between">
                     <p  style="color: rgb(228, 220, 201);" class="bg-[#5c131ac2] p-1 text-center text-[18px]  transform translate-y-[20px] rounded-3xl">{item.name}</p>
                     <div class=""></div> <div class=""></div>
@@ -63,12 +63,12 @@
         {/each}
 
     </div>
-    <div class="h-[100px]"></div>
+    <div class="h-[47px]"></div>
 
  
     <p class="text-center  mb-[6px] text-[29px] text-[#dce4c9] font-semibold">What some other vendors sell as Ceylon Cinnamon ?</p>
 
-    <div class="overflow-hidden min-[618px]:rounded-2xl max-w-[600px] mx-auto">
+    <div data-aos="zoom-in-up" class="overflow-hidden min-[618px]:rounded-2xl max-w-[600px] mx-auto">
         <img class="mx-auto  min-[618px]:rounded-2xl max-[622px]:w-[100%] w-[600px] transform hover:scale-102 duration-300" src="images/war.webp" alt="cassia">
     </div>
     <p class="text-center  mb-[3px]  text-[#dce4c9]  m-3 translate-y-[-12px]">"Cassia Cinnamon" is Chinese cinnamon. <br class="min-[500px]:hidden"> Fake cinnamon.</p>
@@ -92,7 +92,7 @@
            <div class="h-3"></div>
         </div>
         <div>
-            <img class="w-[400px] min-[500px]:rounded-2xl" src="images/thenul.webp" alt="thenul">
+            <img data-aos="fade-left" class="w-[400px] min-[500px]:rounded-2xl" src="images/thenul.webp" alt="thenul">
 
         </div>
     </div>
@@ -104,7 +104,7 @@
     <h2 class="text-center text-white" style="text-transform: capitalize;">Explore  benefits buying D&D ceylon cinnamon</h2>
     <br>
 
-    <div class="flex flex-row flex-wrap justify-center gap-5">
+    <div data-aos="zoom-in-up" class="flex flex-row flex-wrap justify-center gap-5">
 
         {#each cardBenefit as item}
             <div class="w-80 h-80 rounded-2xl bg-amber-50 min-[500px]:hover:scale-110 duration-300 ease-out" style={item.card}>
@@ -123,7 +123,7 @@
 
     <p class="text-center text-white mb-[3px] transform translate-x-[0px]">Traditional market quality of cinnamon</p>
 
-    <div class="flex justify-center gap-[20px]">
+    <div  class="flex justify-center gap-[20px]">
         <div class="w-[7px]"></div>
         <div class="w-[300px] h-[20px] bg-[#dce4c9] rounded-2xl">
             <div class={"h-full border border-1 border-[#dce4c9] w-[54%] rounded-2xl bg-amber-500 min-[500px]:hover:bg-amber-900  hover:duration-500 "} ></div>
@@ -152,7 +152,7 @@
 <section class="bg-[#dce4c9] pt-3 pb-10 plan">
     <p class="text-center text-[47px] text-[#441f1f] font-extrabold">Take the next step</p>
 
-    <div class="flex flex-row justify-center gap-[10px] flex-wrap">
+    <div data-aos="zoom-in-up" class="flex flex-row justify-center gap-[10px] flex-wrap">
         {#each plan as item}
         <div class="w-[250px] h-[250px]  rounded-4xl border-2 border-[#441f1f]">
         
