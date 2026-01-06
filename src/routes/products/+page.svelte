@@ -1,5 +1,5 @@
 <script lang="ts">
-    let productData = ""
+    let productData = "";
     import { onMount } from "svelte";
 
 interface Products {
@@ -10,26 +10,15 @@ interface Products {
 
 
 let productCards= [
-    {name: "", price: "", img: ""},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
+    {name: "wafers", price: "", img: "", filter: "wafers"},
+    {name: "", price: "", img: "", filter: "wafers"},
+    {name: "black", price: "", img: "", filter: "black"},
+    {name: "", price: "", img: "", filter: "wafers"},
+    {name: "", price: "", img: "", filter: "wafers"},
+    {name: "", price: "", img: "", filter: "wafers"},
+    {name: "", price: "", img: "", filter: "wafers"},
+
+  
 
 
 ];
@@ -56,18 +45,21 @@ function productDataFunc() {
 
         <section class="m-1 flex flex-row justify-center flex-wrap gap-[10px]">
 
-            {#each productCards as item}
+            
+                
+            
+
+           {#each productCards.filter(num => num.filter?.toLowerCase().includes(productData.toLowerCase())) as item}
 
 
 
                <div class="w-[300px] h-[300px] bg-amber-100 rounded-2xl flex flex-col items-center">
-                <img class="h-[250px] w-[250px]" src="" alt="product">
-                <p class="name mx-1">Cinnamon Wafers</p>
-                <p class="text-[red] mx-1">Rs. 100</p>
+                <img class="h-[250px] w-[250px]" src={item.img} alt="product">
+                <p class="name mx-1">{item.name}</p>
+                <p class="text-[red] mx-1">{item.price}</p>
                </div>
         
              {/each}
-           
         </section>
 
 

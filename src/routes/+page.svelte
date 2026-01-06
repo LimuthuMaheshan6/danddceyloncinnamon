@@ -81,11 +81,11 @@
 </section>
 
 <section class="pb-3 min-lg:p-[20px]" style="background: rgb(228, 220, 201);">
-    <br>
+    <br> <div class="h-5"></div>
     <div class="flex flex-row flex-wrap justify-around gap-0">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="text-center">Hello, I am Thenul Ranasinghe</h2>
-            <p class="text-center text-[#441f1f]">Owner of D&D Ceylon Cinnamon</p>
+            <h2 class="text-center text-[#441f1f]">Hello, I am Thenul Ranasinghe</h2>
+            <p class="text-center text-amber-900">Owner of D&D Ceylon Cinnamon</p>
            
 
                 <a href="/contact" class="mx-auto bg-green-400 p-1 text-white rounded-2xl hover:bg-amber-900 hover:text-white" >Contact Me</a>
@@ -96,6 +96,8 @@
 
         </div>
     </div>
+
+    <br><br><br>
     
 </section>
 
